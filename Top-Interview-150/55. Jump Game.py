@@ -7,5 +7,4 @@ class Solution:
             elif n > gas:
                 gas = n
             gas -= 1
-            
         return True
