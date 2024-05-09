@@ -6,7 +6,7 @@ public:
         for(auto i : happiness){
             --k;
             sum += max(0, (int)(i - ++cnt));
-            if (k == 0) break; 
+            if (k == 0) break;
         }
         return sum;
     }
