@@ -16,6 +16,6 @@ public:
     int beautifulSubsets(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
         memset(v, 0, sizeof(v));
-        return solve(0, nums, k) - 1;        
+        return solve(0, nums, k) - 1;
     }
 };
