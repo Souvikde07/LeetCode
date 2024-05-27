@@ -3,7 +3,7 @@ public:
     int specialArray(vector<int>& nums) {
         sort(begin(nums), end(nums));
         int n = nums.size();
-        int l = 0; 
+        int l = 0;
         int r = n;
 
         while(l <= r){
