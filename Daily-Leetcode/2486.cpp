@@ -12,6 +12,6 @@ public:
                 i++;
             }
         }
-        return n - j; //remaining characters to be appended at the end of s 
+        return n - j; //remaining characters to be appended at the end of s
     }
 };
