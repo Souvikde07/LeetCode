@@ -6,7 +6,7 @@ public:
         map<int, int> count;
         for(int card : hand)
             count[card]++;
-        
+
         for(auto i = count.begin(); i != count.end(); i++){
             if(i->second > 0){
                 int c = i->second;
