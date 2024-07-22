@@ -19,8 +19,10 @@ public:
     }
 };
 //Efficient Soln:
- vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
-       priority_queue<pair<int,string>>maxh;
+class Solution {
+public:
+    vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
+        priority_queue<pair<int,string>>maxh;
         vector<string>res;
         int n=heights.size();
         for(int i=0;i<n;i++)
