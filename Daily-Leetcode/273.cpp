@@ -38,7 +38,6 @@ public:
                 result += digitString[num] + " ";
             }
         }
-        
         return result;
     }
 };
